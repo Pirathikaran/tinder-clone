@@ -3,7 +3,7 @@ const mongoose=require('mongoose')
 const cors=require('cors')
 const cards = require ('./dbCards.js');
 
-const connection_url='mongodb+srv://admin:pirathi1993@cluster0.4f7kt.mongodb.net/tinderdb?retryWrites=true&w=majority'
+const connection_url='mongodb+srv://admin:<Password>@cluster0.4f7kt.mongodb.net/<dbname>?retryWrites=true&w=majority'
 
 
 // App config
